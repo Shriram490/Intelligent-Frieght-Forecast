@@ -1,0 +1,46 @@
+FREIGHT FORECASTING MODEL RESULTS
+============================================================
+
+MODEL
+Random Forest Regression
+
+DATASET
+Training samples: 1887
+Validation samples: 405
+Test samples: 405
+
+VALIDATION RESULTS
+MAE: 42.2603
+RMSE: 59.7548
+R2: 0.9844
+MAPE: 2.6867%
+
+TEST RESULTS
+MAE: 37.0231
+RMSE: 51.1532
+R2: 0.9855
+MAPE: 2.1749%
+
+FEATURE IMPORTANCE
+        Feature  Importance
+          Price    0.258080
+           Open    0.256917
+            Low    0.242029
+           High    0.237826
+    Price_Lag_1    0.002657
+       Change %    0.000898
+ Price_Change_7    0.000206
+   Volatility_7    0.000172
+     Price_MA_7    0.000171
+    Price_MA_90    0.000168
+  Volatility_30    0.000163
+   Price_Lag_30    0.000146
+    Price_Lag_7    0.000140
+Price_Change_30    0.000135
+    Price_MA_30    0.000122
+    Day_of_Week    0.000072
+          Month    0.000044
+           Year    0.000033
+        Quarter    0.000019
+    Price_Range    0.000000
+Price_Range_Pct    0.000000

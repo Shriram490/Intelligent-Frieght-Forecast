@@ -1,0 +1,46 @@
+FREIGHT FORECASTING MODEL EVALUATION REPORT
+================================================================================
+
+MODEL
+Algorithm: Random Forest Regression
+
+DATASET
+Test samples: 405
+Test start: 2024-07-26 00:00:00
+Test end: 2026-03-11 00:00:00
+
+OVERALL PERFORMANCE
+MAE:  37.02
+RMSE: 51.15
+R²:   0.9855
+MAPE: 2.17%
+
+PREDICTION ACCURACY
+Within ±25 units: 48.89%
+Within ±50 units: 75.06%
+Within ±100 units: 94.57%
+
+YEAR-WISE PERFORMANCE
+2024: MAE=29.74, RMSE=38.79, R²=0.9832, MAPE=1.86%
+2025: MAE=38.24, RMSE=52.56, R²=0.9881, MAPE=2.27%
+2026: MAE=46.76, RMSE=65.60, R²=0.8781, MAPE=2.41%
+
+TOP FEATURE IMPORTANCE
+Price: 0.258080
+Open: 0.256917
+Low: 0.242029
+High: 0.237826
+Price_Lag_1: 0.002657
+Change %: 0.000898
+Price_Change_7: 0.000206
+Volatility_7: 0.000172
+Price_MA_7: 0.000171
+Price_MA_90: 0.000168
+
+MODEL INTERPRETATION
+The Random Forest model achieved a test MAE of 37.02.
+The test RMSE was 51.15.
+The test R² score was 0.9855.
+The test MAPE was 2.17%.
+
+This evaluation represents the baseline performance of the current freight forecasting model.
